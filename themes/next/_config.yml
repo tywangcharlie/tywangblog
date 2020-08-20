@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.jpg
+  url: /images/avatar1.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -191,7 +191,7 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -201,7 +201,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  # Title: https://tywangblog.netlify.app
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -380,7 +380,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: true
+  enable: false
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
